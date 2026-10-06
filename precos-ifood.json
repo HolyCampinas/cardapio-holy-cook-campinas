@@ -1,0 +1,71 @@
+{
+  "loja": "Campinas",
+  "fonte": "print do cardápio do iFood da loja, 06/10/2026",
+  "observacao": "preco = preço cheio do item no iFood. promo = preço promocional que estava rodando no dia do print. null = item não está no cardápio do iFood.",
+  "itens": {
+    "cookies-chocolate|Holy Kinder Bueno White":   {"preco": 24.90},
+    "cookies-chocolate|Holy Tradicional":          {"preco": 15.90},
+    "cookies-chocolate|Holy Choc":                 {"preco": null},
+    "cookies-chocolate|Holy Duo":                  {"preco": 20.90},
+    "cookies-chocolate|Holy M&M's":                {"preco": 18.90},
+    "cookies-chocolate|Holy Brigadeiro de Panela": {"preco": 20.90},
+    "cookies-chocolate|Holy Ouro Branco":          {"preco": 18.90},
+    "cookies-chocolate|Holy Nutella":              {"preco": 22.90},
+    "cookies-chocolate|Holy Ninho com Nutella":    {"preco": 22.90},
+    "cookies-chocolate|Holy Kinder com Nutella":   {"preco": 22.90},
+    "cookies-chocolate|Cookie França":             {"preco": null},
+
+    "cookies-frutas|Holy Pistache":                {"preco": 26.90},
+    "cookies-frutas|Holy Red Velvet":              {"preco": 22.90},
+    "cookies-frutas|Holy Cocada Cremosa":          {"preco": 18.90},
+    "cookies-frutas|Holy Limão Siciliano":         {"preco": 16.90},
+    "cookies-frutas|Holy Maracujá":                {"preco": 18.90},
+    "cookies-frutas|Holy Doce de Leite com Nozes": {"preco": 18.90},
+    "cookies-frutas|Holy Churros":                 {"preco": 16.90},
+    "cookies-frutas|Holy Ninho com Frutas":        {"preco": 22.90, "promo": 20.90},
+
+    "brownie-torta|Torta Perfeita da Holy":        {"preco": null},
+    "brownie-torta|Holy Brownie":                  {"preco": 13.90},
+    "brownie-torta|Brookie":                       {"preco": 26.90, "promo": 24.90},
+    "brownie-torta|Com bola de sorvete":           {"preco": null},
+
+    "milkshakes|Cookie":                           {"preco": 36.90},
+    "milkshakes|Brownie":                          {"preco": null},
+    "milkshakes|Red Velvet":                       {"preco": 36.90},
+    "milkshakes|Ninho com Nutella":                {"preco": 36.90},
+    "milkshakes|Pistache":                         {"preco": 38.90},
+
+    "bebidas-geladas|Frappuccino de Nutella":        {"preco": null},
+    "bebidas-geladas|Frappuccino de Doce de Leite":  {"preco": null},
+    "bebidas-geladas|Cappuccino Gelado":             {"preco": null},
+    "bebidas-geladas|Iced Caramel":                  {"preco": null},
+    "bebidas-geladas|Expresso Tônica":               {"preco": null},
+
+    "bebidas-quentes|Hot Nutella":               {"preco": null},
+    "bebidas-quentes|Café Expresso":             {"preco": null},
+    "bebidas-quentes|Café Expresso Duplo":       {"preco": null},
+    "bebidas-quentes|Cappuccino Italiano":       {"preco": null},
+    "bebidas-quentes|Cappuccino com Chocolate":  {"preco": null},
+    "bebidas-quentes|Chocolate Quente":          {"preco": null},
+    "bebidas-quentes|Baunilha":                  {"preco": null},
+    "bebidas-quentes|Água":                      {"preco": 7.90, "promo": 6.90},
+    "bebidas-quentes|Água com Gás":              {"preco": 7.90, "promo": 6.90},
+    "bebidas-quentes|Coca-Cola":                 {"preco": 8.90, "promo": 8.20},
+    "bebidas-quentes|Sucos":                     {"preco": 14.90, "promo": 11.90},
+    "bebidas-quentes|Soda Italiana":             {"preco": null},
+
+    "salgados|Lanchinho de Croissant":  {"preco": null},
+    "salgados|Crookie":                 {"preco": null},
+    "salgados|Holy Queijo Quente":      {"preco": null},
+    "salgados|Croissant":               {"preco": null},
+    "salgados|Salgados Assados":        {"preco": null},
+    "salgados|Pão na Chapa":            {"preco": null},
+    "salgados|Waffle Pão de Queijo":    {"preco": null},
+
+    "sorvetes|Brownie com Nutella": {"preco": null},
+    "sorvetes|Pistache":            {"preco": null},
+
+    "encomendas|Mini Cookies":     {"preco": null},
+    "encomendas|Torta Inteirinha": {"preco": null}
+  }
+}
