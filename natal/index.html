@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Natal da Holy · Campinas</title>
+<meta name="description" content="Cardápio de Natal da Holy Cook Campinas: tortas geladas, cookietone, chocotone e browniebites. Por tempo limitado.">
+<meta name="theme-color" content="#FBD4D9">
+<link rel="icon" href="img/logo.png">
+<link rel="apple-touch-icon" href="img/logo.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Natal da Holy · Campinas">
+<meta property="og:description" content="Tortas geladas, cookietone, chocotone e browniebites. Por tempo limitado 🎄">
+<meta property="og:image" content="https://holycampinas.github.io/cardapio-holy-cook-campinas/natal/img/capa.jpg">
+<meta property="og:url" content="https://holycampinas.github.io/cardapio-holy-cook-campinas/natal/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --rosa:#FBD4D9;--rosa-claro:#FDE9EC;--creme:#FDE6C9;--creme-claro:#FEF4E7;
+  --marrom:#5B3A2E;--vermelho:#D2232A;--branco:#FFFBF8;
+  --sombra:0 3px 14px rgba(91,58,46,.12);
+  --listra:repeating-linear-gradient(-45deg,var(--vermelho) 0 10px,var(--branco) 10px 20px,var(--marrom) 20px 30px,var(--branco) 30px 40px);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--rosa);color:var(--marrom);font-family:'Quicksand',system-ui,-apple-system,'Segoe UI',sans-serif;font-weight:600;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{max-width:640px;margin:0 auto;padding:0 16px}
+.listra{height:9px;background:var(--listra)}
+
+/* hero */
+.hero{text-align:center;padding:14px 16px 16px}
+.hero-logo{width:54px;margin:0 auto 6px}
+.hero h1{font-family:'Lilita One',cursive;font-weight:400;color:var(--vermelho);font-size:clamp(2.1rem,10vw,3rem);line-height:.92;margin:0 0 8px;letter-spacing:.5px}
+.tag{display:inline-block;background:var(--branco);font-family:'Lilita One',cursive;font-size:.82rem;letter-spacing:.3px;padding:6px 14px;border-radius:999px;margin-bottom:12px}
+.hero-foto{max-width:300px;margin:0 auto;border-radius:20px;overflow:hidden;box-shadow:var(--sombra)}
+.hero-foto img{width:100%;aspect-ratio:4/3;object-fit:cover}
+
+/* nav */
+.nav{position:sticky;top:0;z-index:50;background:rgba(251,212,217,.95);backdrop-filter:blur(10px);border-bottom:2px solid rgba(91,58,46,.12)}
+.nav-scroll{display:flex;gap:7px;overflow-x:auto;padding:10px 16px;scrollbar-width:none;max-width:640px;margin:0 auto}
+.nav-scroll::-webkit-scrollbar{display:none}
+.nav a{flex:none;text-decoration:none;white-space:nowrap;font-family:'Lilita One',cursive;font-size:.8rem;letter-spacing:.3px;padding:7px 13px;border-radius:999px;background:var(--branco);transition:all .15s ease}
+.nav a.on{background:var(--vermelho);color:#fff}
+
+/* seções */
+section{padding:24px 0 22px;scroll-margin-top:52px}
+section.creme{background:var(--creme-claro)}
+h2{font-family:'Lilita One',cursive;font-weight:400;color:var(--vermelho);font-size:clamp(1.6rem,7vw,2.1rem);line-height:1;margin:0 0 4px}
+.sub{font-size:.85rem;margin:0 0 14px;opacity:.75;line-height:1.4}
+
+.lista{background:var(--branco);border-radius:18px;box-shadow:var(--sombra);overflow:hidden}
+.item{display:flex;align-items:center;gap:12px;padding:10px 14px;border-top:1px solid rgba(91,58,46,.09);cursor:zoom-in;-webkit-tap-highlight-color:transparent}
+.item:first-child{border-top:0}
+.item:active{background:var(--rosa-claro)}
+.thumb{width:56px;height:56px;flex:none;border-radius:50%;object-fit:cover;background:var(--rosa-claro)}
+.nome{flex:1;min-width:0;font-family:'Lilita One',cursive;font-weight:400;font-size:1rem;line-height:1.15;letter-spacing:.2px}
+.nome small{display:block;font-family:'Quicksand',sans-serif;font-weight:600;font-size:.76rem;opacity:.65;letter-spacing:0;margin-top:2px}
+.preco{font-family:'Lilita One',cursive;color:var(--vermelho);white-space:nowrap;text-align:right;font-size:1rem;line-height:1.25}
+.preco span{display:block;font-family:'Quicksand',sans-serif;font-weight:700;font-size:.68rem;color:var(--marrom);opacity:.6;text-transform:uppercase;letter-spacing:.4px}
+.duplo{display:flex;gap:12px}
+.adicional{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:10px;background:var(--creme);border-radius:14px;padding:10px 14px;font-size:.88rem}
+.adicional b{font-family:'Lilita One',cursive;font-weight:400;color:var(--vermelho);white-space:nowrap}
+
+/* footer */
+footer{background:var(--marrom);color:var(--creme-claro);text-align:center;padding:0 0 40px}
+footer .conteudo{padding:26px 16px 0}
+footer h2{color:#FFB98F;margin-bottom:10px}
+footer .end{font-size:.95rem;line-height:1.55;margin:0 0 16px}
+footer .end strong{font-family:'Lilita One',cursive;font-weight:400;letter-spacing:.4px;font-size:1.05rem}
+.links{display:flex;gap:9px;justify-content:center;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:8px;font-family:'Lilita One',cursive;font-size:.95rem;letter-spacing:.4px;padding:12px 20px;border-radius:999px;text-decoration:none;box-shadow:var(--sombra)}
+.btn-zap{background:#25D366;color:#fff}
+.btn-menu{background:var(--creme-claro);color:var(--marrom)}
+.btn svg{width:18px;height:18px;fill:currentColor;flex:none}
+.creditos{margin-top:20px;font-size:.74rem;opacity:.55;line-height:1.5}
+
+/* pop-up da foto */
+.lb{position:fixed;inset:0;z-index:100;display:none;align-items:center;justify-content:center;padding:18px;background:rgba(45,25,18,.88)}
+.lb.aberto{display:flex}
+.lb-box{background:var(--branco);border-radius:22px;overflow:hidden;width:100%;max-width:460px;max-height:92vh;display:flex;flex-direction:column}
+.lb-box img{width:100%;max-height:62vh;object-fit:cover;background:var(--rosa-claro)}
+.lb-txt{padding:14px 18px 18px}
+.lb-txt h3{font-family:'Lilita One',cursive;font-weight:400;font-size:1.25rem;margin:0 0 4px}
+.lb-txt p{margin:0;font-size:.9rem;line-height:1.4;opacity:.8}
+.lb-txt .preco{text-align:left;margin-top:8px;display:block}
+.lb-fechar{position:absolute;top:16px;right:16px;width:44px;height:44px;border:0;border-radius:50%;background:rgba(255,251,248,.94);color:var(--marrom);font-size:27px;font-weight:700;cursor:pointer;box-shadow:0 3px 12px rgba(0,0,0,.3)}
+</style>
+</head>
+<body>
+
+<div class="listra"></div>
+<header class="hero">
+  <img class="hero-logo" src="img/logo.png" alt="Holy Cook">
+  <h1>Natal<br>da Holy</h1>
+  <div class="tag">🎄 Por tempo limitado</div>
+  <div class="hero-foto"><img src="img/capa.jpg" alt="Cookietones empilhados" fetchpriority="high"></div>
+</header>
+
+<nav class="nav"><div class="nav-scroll" id="nav"></div></nav>
+
+<main id="menu"></main>
+
+<footer>
+  <div class="listra"></div>
+  <div class="conteudo">
+    <h2>Vem pra Holy</h2>
+    <p class="end"><strong>Campinas</strong><br>R. Cônego Nery, 463<br>Jardim Guanabara</p>
+    <div class="links">
+      <a class="btn btn-zap" href="https://wa.me/5519958715302" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.2-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.5-.6c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.6l-1-2.2c-.2-.5-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.2-.6-.3zM12 2A10 10 0 0 0 3.5 17.2L2 22l5-1.5A10 10 0 1 0 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3 .9.9-2.9-.2-.3a8.2 8.2 0 1 1 7 3.7z"/></svg>
+        Tirar dúvidas
+      </a>
+      <a class="btn btn-menu" href="../">Cardápio completo</a>
+    </div>
+    <p class="creditos">Itens de Natal por tempo limitado, enquanto durarem.<br>Preços sujeitos a alteração.</p>
+  </div>
+</footer>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true">
+  <button class="lb-fechar" aria-label="Fechar">×</button>
+  <div class="lb-box">
+    <img alt="">
+    <div class="lb-txt"><h3></h3><p></p><span class="preco"></span></div>
+  </div>
+</div>
+
+<script>
+const MENU = [
+  { id:'tortas', nav:'Torta gelada', titulo:'Torta Gelada',
+    sub:'Massinha crocante e recheio cremoso. A inteira tem cerca de 1,5 kg e serve até 8 fatias.',
+    itens:[
+      {nome:'Chocolate com Caramelo', foto:'torta-caramelo', fatia:'22,90', inteira:'159,90',
+       desc:'Caramelo salgado cremoso, creme de chocolate meio amargo, ganache de chocolate e flor de sal.'},
+      {nome:'Brownie com Maracujá', foto:'torta-maracuja', fatia:'22,90', inteira:'159,90',
+       desc:'Creme de maracujá feito com a fruta de verdade, muito brownie da Holy, ganache meio amargo e redução de maracujá.'},
+      {nome:'Limão Siciliano com Blueberry', foto:'torta-limao', fatia:'22,90', inteira:'169,90',
+       desc:'Geleia de blueberry feita na Holy com ganache de limão siciliano, finalizada com suspiros.'}
+    ]},
+  { id:'cookietone', nav:'Cookietone', titulo:'Cookietone', creme:true,
+    sub:'Massa de cookie com sabor de panetone e muuuito recheio. De 180 a 200 g.',
+    itens:[
+      {nome:'Brigadeiro de Panela', foto:'cookietone-brigadeiro', preco:'25,90'},
+      {nome:'Red Velvet', foto:'cookietone-red-velvet', preco:'25,90'},
+      {nome:'Ninho com Nutella', foto:'cookietone-ninho-nutella', preco:'27,90'},
+      {nome:'Duo', foto:'cookietone-duo', preco:'27,90'},
+      {nome:'Kinder com Nutella', foto:'cookietone-kinder-nutella', preco:'29,90'},
+      {nome:'Pistache', foto:'cookietone-pistache', preco:'35,90'}
+    ]},
+  { id:'fatia', nav:'Fatia de Chocotone', titulo:'Fatia de Chocotone',
+    sub:'Fatia de chocotone com cookie e recheio, servida na hora.',
+    itens:[
+      {nome:'Com Brigadeiro Cremoso', foto:'fatia-chocotone', preco:'18,90'},
+      {nome:'Com Nutella Crocante', foto:'fatia-chocotone', preco:'18,90'},
+      {nome:'Com Bueno', foto:'fatia-chocotone', preco:'20,90'}
+    ],
+    adicional:{txt:'🍦 Adicional de sorvete', preco:'+ R$ 6,00'}},
+  { id:'chocotone', nav:'Chocotone inteiro', titulo:'Chocotone Inteiro', creme:true,
+    sub:'Massa de panetone com pedaços de cookie e muuuito recheio. Cerca de 900 g.',
+    itens:[
+      {nome:'Tradicional', foto:'chocotone-tradicional', preco:'59,90'},
+      {nome:'Brigadeiro Cremoso', foto:'chocotone-brigadeiro', preco:'79,90'},
+      {nome:'Bueno', foto:'chocotone-bueno', preco:'89,90'},
+      {nome:'Nutella Crocante', foto:'chocotone-nutella', preco:'89,90'}
+    ]},
+  { id:'browniebites', nav:'Browniebites', titulo:'Browniebites',
+    sub:'Mini brownies banhados em chocolate e finalizados com flor de sal.',
+    itens:[
+      {nome:'Caixinha 150 g', foto:'brownie-bites', preco:'22,90'}
+    ]}
+];
+
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const precoHtml = it => it.fatia
+  ? `<div class="duplo"><div class="preco"><span>fatia</span>R$ ${it.fatia}</div><div class="preco"><span>inteira</span>R$ ${it.inteira}</div></div>`
+  : `<div class="preco">R$ ${it.preco}</div>`;
+
+document.getElementById('nav').innerHTML = MENU.map(s => `<a href="#${s.id}">${esc(s.nav)}</a>`).join('');
+document.getElementById('menu').innerHTML = MENU.map(s => `
+  <section id="${s.id}"${s.creme ? ' class="creme"' : ''}><div class="wrap">
+    <h2>${esc(s.titulo)}</h2>
+    <p class="sub">${esc(s.sub)}</p>
+    <div class="lista">${s.itens.map((it, i) => `
+      <div class="item" data-s="${s.id}" data-i="${i}" role="button" tabindex="0">
+        <img class="thumb" src="img/${it.foto}.jpg" alt="" loading="lazy" width="56" height="56">
+        <div class="nome">${esc(it.nome)}</div>
+        ${precoHtml(it)}
+      </div>`).join('')}
+    </div>
+    ${s.adicional ? `<div class="adicional"><span>${esc(s.adicional.txt)}</span><b>${esc(s.adicional.preco)}</b></div>` : ''}
+  </div></section>`).join('');
+
+// pop-up com a foto grande
+const lb = document.getElementById('lb');
+function abrir(el){
+  const s = MENU.find(x => x.id === el.dataset.s), it = s.itens[+el.dataset.i];
+  lb.querySelector('img').src = `img/g/${it.foto}.jpg`;
+  lb.querySelector('h3').textContent = `${s.titulo} · ${it.nome}`;
+  lb.querySelector('p').textContent = it.desc || s.sub;
+  lb.querySelector('.preco').textContent = it.fatia ? `Fatia R$ ${it.fatia} · Inteira R$ ${it.inteira}` : `R$ ${it.preco}`;
+  lb.classList.add('aberto');
+}
+document.querySelectorAll('.item').forEach(el => {
+  el.addEventListener('click', () => abrir(el));
+  el.addEventListener('keydown', e => { if (e.key === 'Enter') abrir(el); });
+});
+lb.addEventListener('click', () => lb.classList.remove('aberto'));
+document.addEventListener('keydown', e => { if (e.key === 'Escape') lb.classList.remove('aberto'); });
+
+// pílula ativa no menu
+const links = [...document.querySelectorAll('.nav a')];
+const obs = new IntersectionObserver(es => es.forEach(e => {
+  if (!e.isIntersecting) return;
+  links.forEach(a => {
+    const on = a.getAttribute('href') === '#' + e.target.id;
+    a.classList.toggle('on', on);
+    if (on) a.scrollIntoView({inline:'center', block:'nearest', behavior:'smooth'});
+  });
+}), {rootMargin:'-45% 0px -50% 0px'});
+document.querySelectorAll('section').forEach(s => obs.observe(s));
+</script>
+</body>
+</html>
